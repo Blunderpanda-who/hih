@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You 💖</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- 🎵 MUSIC -->
+<audio id="song1" loop src="music/chaandni.mp3"></audio>
+<audio id="song2" loop src="music/rtc.mp3"></audio>
+<audio id="song3" loop src="music/high-on-you.mp3"></audio>
+
+<!-- 💕 LANDING -->
+<section class="section landing">
+  <h1>Heyyyyyyooooo Loveeeieeeeeee 😭💗✨</h1>
+  <p>This little world is just for youuuuuuuu!!!!</p>
+  <button onclick="startLove()">Enter Our World Babe? 🎀</button>
+</section>
+
+<!-- 🫂 SORRY -->
+<section class="section hidden" id="sorry">
+  <h2>I’m Sorry 🫂</h2>
+  <p>
+    I know I hurt you.<br>
+    And I hate myself for that.<br>
+    You mean more to me than my ego 🫂💞💋
+  </p>
+  <button onclick="goToMemories()">I Promise 💖</button>
+</section>
+
+<!-- 📸 MEMORIES -->
+<section class="section hidden" id="memories">
+  <h2>Our Memories 📸</h2>
+  <p>
+    Some moments…<br>
+    I want to keep chuppake 🫶
+  </p>
+  <div class="hearts">💖 💕 💖</div>
+  <button onclick="goToChristmas()">Next 🎄</button>
+</section>
+
+<!-- 🎄 CHRISTMAS -->
+<section class="section hidden christmas" id="christmas">
+  <h2>Merry Christmas 🎄</h2>
+  <p>
+    This Christmas,<br>
+    all I want… is you dont mind agar santa aapko uthaane aagya tohhh!!! 😭💌
+  </p>
+  <button onclick="goToNewYear()">Open New Year 🎆</button>
+</section>
+
+<!-- 🎆 NEW YEAR -->
+<section class="section hidden newyear" id="newyear">
+  <h2>Happy New Year 🎆</h2>
+  <p>
+    New year.<br>
+    Same us.<br>
+    But stronger?💞
+  </p>
+  <div class="final">
+    im all yours... only yours 🫂❤️✨
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
